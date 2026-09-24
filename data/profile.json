@@ -1,0 +1,323 @@
+{
+  "profile": {
+    "firstName": "Beeputh",
+    "lastName": "Vedasha",
+    "role": "Cybersecurity Student",
+    "availability": "Open to opportunities",
+    "intro": "Hello, I'm",
+    "description": "A passionate cybersecurity student focused on secure systems, programming, network security and building user-friendly digital experiences.",
+    "photo": "images/profile.jpeg",
+    "email": "beeputhvedasha@gmail.com",
+    "github": "https://github.com/Vedasha2811",
+    "linkedin": "https://www.linkedin.com/in/vedasha-beeputh-0332752b6/",
+    "resume": "https://drive.google.com/file/d/15mixA8l2l1FQElLU-_u4H2y-YmnuvO-x/view?usp=drive_link"
+  },
+  "about": {
+    "largeText": "I'm a cybersecurity student who enjoys understanding how technology works — and how to make it more secure.",
+    "paragraphs": [
+      "I am currently pursuing a BSc(Hons) in Cybersecurity at the University of Mauritius. My academic journey has allowed me to develop a strong foundation in secure systems, programming, networking and cybersecurity principles.",
+      "I enjoy working on practical projects where I can combine cybersecurity knowledge with programming and UI/UX design to create applications that are both secure and user-friendly."
+    ]
+  },
+  "education": [
+    {
+      "date": "2024 — Present",
+      "title": "BSc(Hons) in Cybersecurity",
+      "institution": "University of Mauritius",
+      "description": "Developing knowledge in cybersecurity, programming, secure systems, networking and related technologies.",
+      "tags": [
+        "Cybersecurity",
+        "Programming",
+        "Networking",
+        "Security"
+      ]
+    },
+    {
+      "date": "Jan 2023 — Nov 2023",
+      "title": "Higher School Certificate",
+      "institution": "Rajcoomar Gujadhur State Secondary School",
+      "description": "",
+      "tags": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "General Paper",
+        "French"
+      ]
+    },
+    {
+      "date": "Jan 2020 — June 2021",
+      "title": "School Certificate",
+      "institution": "Rajcoomar Gujadhur State Secondary School",
+      "description": "",
+      "tags": [
+        "Computer Science",
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming & Web",
+      "icon": "fa-code",
+      "items": [
+        "Python",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ]
+    },
+    {
+      "category": "Cybersecurity",
+      "icon": "fa-shield-halved",
+      "items": [
+        "Linux Administration",
+        "Wireshark",
+        "Network Security",
+        "Security Analysis",
+        "Digital Forensics"
+      ]
+    },
+    {
+      "category": "Networking & Tools",
+      "icon": "fa-network-wired",
+      "items": [
+        "Cisco Packet Tracer",
+        "GitHub",
+        "Figma",
+        "SQL Server Management Studio"
+      ]
+    },
+    {
+      "category": "Professional",
+      "icon": "fa-users",
+      "items": [
+        "Problem Solving",
+        "Adaptability",
+        "Teamwork"
+      ]
+    }
+  ],
+  "projects": {
+
+      "legal-ai-chatbox": {
+      "title": "AI-Powered-Legal-PDF-Querying-Assistant-LexiBot",
+      "category": "AI - MACHINE LEARNING",
+      "description": "AI-powered chatbot that answers questions from legal PDF documents using semantic retrieval and LLMs, with source-backed responses.",
+      "about": "Legal AI Chatbot is a retrieval-augmented generation (RAG) application that lets users ask natural-language questions about legal documents and receive accurate, source-backed answers. Users upload legal PDFs, which are parsed, chunked, and embedded into a vector store. When a question is asked, the system performs semantic search to retrieve the most relevant passages, then passes them to a large language model to generate a grounded response. Every answer includes citations pointing back to the exact page and section of the source document, reducing hallucinations and building trust. The app features a clean chat interface with conversation history, document management, and highlighted source snippets.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "PyMuPDF",
+        "FAISS",
+        "google-genai",
+        "Sentence Transformers",
+        "NumPy",
+        "python-dotenv"
+      ],
+      "images": [
+        "images/projects/ai.png",
+        "images/projects/ai1.png",
+        "images/projects/ai2.png"
+      ],
+      "github": "https://github.com/Vedasha2811/AI-Powered-Legal-PDF-Querying-Assistant-LexiBot>",
+      "demo": "#"
+    },
+
+    "website": {
+      "title": "My personal website",
+      "category": "Web Development",
+      "description": "A responsive personal website built with HTML, CSS, and JavaScript to showcase my work and background.",
+      "about": "This project is my personal portfolio website, designed to introduce who I am, highlight my skills, and display selected projects. It features a clean, mobile-first layout with smooth scrolling, a dark/light theme toggle, and an animated hero section — all built without any frameworks to keep it lightweight and fast. The site is fully responsive.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "images": [
+        "images/projects/website2.png",
+        "images/projects/website1.png",
+        "images/projects/website.png"
+      ],
+      "github": "https://github.com/Vedasha2811/My-portfolio",
+      "demo": "#"
+    },
+
+    "restaurant": {
+      "title": "RESTAULAKAZ",
+      "category": "Web Development",
+      "description": "A restaurant and food delivery website developed using PHP, HTML, CSS and SQL.",
+      "about": "This project was developed as a web development project using PHP, SQL, HTML and CSS. The website includes different food categories, database connectivity and dynamic content.",
+      "technologies": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL",
+        "PDO"
+      ],
+      "images": [
+        "images/projects/restaurant.png",
+        "images/projects/restaurant-2.png",
+        "images/projects/restaurant-3.png"
+      ],
+      "github": "https://github.com/Vedasha2811/RestauLacaz",
+      "demo": "#"
+    },
+
+    "bank-network": {
+      "title": "Bank Network Design",
+      "category": "Networking & Cybersecurity",
+      "description": "A secure banking network architecture designed using Cisco Packet Tracer.",
+      "about": "The network incorporates VLAN segmentation, firewall security, routing and separate network segments for different departments of a banking environment.",
+      "technologies": [
+        "Cisco Packet Tracer",
+        "VLAN",
+        "Firewall",
+        "Networking",
+        "Cisco ASA"
+      ],
+      "images": [
+        "images/projects/bank-network.png",
+        "images/projects/bank-network-2.png"
+      ],
+      "github": "#",
+      "demo": "#"
+    },
+
+    "log-analyzer": {
+      "title": "Python Log Analyzer",
+      "category": "Cybersecurity",
+      "description": "A Python-based security tool designed to analyse log files and identify suspicious authentication activity.",
+      "about": "The project focuses on identifying potential brute-force attacks by analysing login attempts and detecting unusual patterns in system logs.",
+      "technologies": [
+        "Python",
+        "Cybersecurity",
+        "Log Analysis",
+        "Security"
+      ],
+      "images": [
+        "images/projects/log-analyzer-1.png",
+        "images/projects/log-analyzer-2.png"
+      ],
+      "github": "https://github.com/yourusername/log-analyzer",
+      "demo": "#"
+    },
+
+    "awareness-game": {
+      "title": "Cybersecurity Awareness Game",
+      "category": "Cybersecurity",
+      "description": "A game designed to educate users about cyber hygiene and phishing awareness.",
+      "about": "The game focuses on teaching users smart password habits to protect against brute-force attacks.",
+      "technologies": [
+        "Python",
+        "Security"
+      ],
+      "images": [
+        "images/projects/game-1.png",
+        "images/projects/game-2.jpeg"
+      ],
+      "github": "https://github.com/yourusername/log-analyzer",
+      "demo": "#"
+    }
+    
+  },
+  "certificates": [
+    {
+      "icon": "fa-python",
+      "date": "June 2026",
+      "title": "Python Essentials 2",
+      "issuer": "CISCO",
+      "link": "https://www.credly.com/badges/67d11877-f159-413e-95fd-c971236420b4"
+    },
+    {
+      "icon": "fa-python",
+      "date": "June 2026",
+      "title": "Python Essentials 1",
+      "issuer": "CISCO",
+      "link": "https://www.credly.com/badges/a01f086c-1bb4-4668-9597-c2681fcb7a0a"
+    },
+    {
+      "icon": "fa-router",
+      "date": "June 2026",
+      "title": "Configure Juniper SRX Router using J-Web",
+      "issuer": "CodeRed",
+      "link": "https://learn.eccouncil.org/certificate/0d57c706-92ec-4387-8fa4-b27eb9b88b40?logged=true"
+    },
+    {
+      "icon": "fa-network-wired",
+      "date": "June 2026",
+      "title": "Network Support and Security",
+      "issuer": "CISCO",
+      "link": "https://www.credly.com/badges/64e0c3eb-bdb8-4749-a0f4-accc94018833/public_url"
+    },
+    {
+      "icon": "fa-database",
+      "date": "June 2026",
+      "title": "Introduction to SAN and NAS Storage",
+      "issuer": "CodeRed",
+      "link": "https://learn.eccouncil.org/certificate/dd4d60ae-2b53-4493-99fa-673f65cef7e7?logged=true"
+    },
+    {
+      "icon": "fa-server",
+      "date": "June 2026",
+      "title": "Cisco LABS Crash Course",
+      "issuer": "CodeRed",
+      "link": "https://learn.eccouncil.org/certificate/50729bfb-3fbb-4c5d-a6d1-99b0f15ec5b5?logged=true"
+    },
+    {
+      "icon": "fa-cloud",
+      "date": "June 2026",
+      "title": "A Practical Introduction to Cloud Computing",
+      "issuer": "CodeRed",
+      "link": "https://learn.eccouncil.org/certificate/7cff60cc-db0a-4b84-85a5-2f3bc6825c80?logged=true"
+    },
+    {
+      "icon": "fa-award",
+      "date": "2020",
+      "title": "Advanced Computing",
+      "issuer": "Knowledgeplus Training Center",
+      "link": ""
+    },
+    {
+      "icon": "fa-code",
+      "date": "2019",
+      "title": "Introduction to Coding",
+      "issuer": "National Computer Board",
+      "link": ""
+    },
+    {
+      "icon": "fa-laptop",
+      "date": "2019",
+      "title": "Proficiency in Software Package",
+      "issuer": "Knowledgeplus Training Center",
+      "link": ""
+    },
+    {
+      "icon": "fa-computer",
+      "date": "2018",
+      "title": "Introduction to Computing",
+      "issuer": "Knowledgeplus Training Center",
+      "link": ""
+    },
+    {
+      "icon": "fa-globe",
+      "date": "2018",
+      "title": "Internet & Computing Core Certification",
+      "issuer": "National Computer Board",
+      "link": ""
+    },
+    {
+      "icon": "fa-language",
+      "date": "2014",
+      "title": "Alliance Française with Mention BIEN",
+      "issuer": "Certificat de Mérite au Concours de Langue Française",
+      "link": ""
+    }
+  ]
+}
